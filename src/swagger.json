@@ -1,0 +1,29 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Documentação API (nome)",
+        "description": "Documentação que descreve os endpoints da API (nome)",
+        "version": "1.0.0"
+    },
+    "servers":[
+        {
+            "url": "http://localhost:3000/",
+            "description": "API de teste"
+        },
+        {
+            "url": "",
+            "description": "API de Homologação"
+        }
+    ],
+    "paths":{},
+    "components": {
+        "schemas":{},
+        "securitySchemes":{
+            "bearerAuth":{
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    }
+}

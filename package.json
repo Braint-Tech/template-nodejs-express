@@ -1,0 +1,27 @@
+{
+  "name": "gastronomia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cluster.js",
+  "scripts": {
+    "test": "jest --silent --bail",
+    "start": "node src/cluster.js",
+    "dev": "nodemon src/cluster.js",
+    "admin": "run-func ./src/functions/admin admin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.14",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "run-func": "^1.0.5",
+    "swagger-ui-express": "^4.2.0"
+  }
+}
